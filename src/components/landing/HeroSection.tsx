@@ -15,7 +15,7 @@ const HeroSection = () => {
           variant="outline" 
           className="mb-8 px-4 py-2 text-sm font-medium bg-accent text-accent-foreground border-primary/20 rounded-full"
         >
-          🚀 Launching Q1 2026
+          The #1 platform for AI-built products
         </Badge>
 
         {/* Main Headline */}
@@ -29,7 +29,7 @@ const HeroSection = () => {
         <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           The product discovery and ranking platform for AI-native builders.
           <br className="hidden sm:block" />
-          Turn early signal into validation — and validation into real users.
+          Turn early traction into real users.
         </p>
       </div>
     </section>
