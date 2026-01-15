@@ -21,7 +21,7 @@ const features = [
   },
   {
     icon: "🤖",
-    title: "Built for AI-Native Products",
+    title: "Built for Vibe Coders",
     description:
       "Show what percentage of your product was built using tools like Cursor, Claude, v0, or Lovable.",
   },

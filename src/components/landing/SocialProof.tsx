@@ -1,8 +1,10 @@
+import { Users, Sparkles } from "lucide-react";
+
 const SocialProof = () => {
   const metrics = [
-    { value: "1,200+", label: "builders on the waitlist" },
-    { value: "80%", label: "avg AI-coded score" },
-    { value: "Cursor", label: "top AI-native tool" },
+    { value: "2M+", label: "AI-native builders", icon: Users },
+    { value: "80%", label: "avg. Vibe in 2026", icon: Sparkles },
+    { value: "Cursor", label: "top AI-native tool", icon: null },
   ];
 
   // Generate gradient placeholder avatars
@@ -15,7 +17,8 @@ const SocialProof = () => {
         <div className="flex flex-wrap justify-center gap-8 sm:gap-12 mb-10">
           {metrics.map((metric, index) => (
             <div key={index} className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-foreground">
+              <div className="text-2xl sm:text-3xl font-bold text-foreground flex items-center justify-center gap-2">
+                {metric.icon && <metric.icon className="w-6 h-6 text-primary" />}
                 {metric.value}
               </div>
               <div className="text-sm text-muted-foreground mt-1">
